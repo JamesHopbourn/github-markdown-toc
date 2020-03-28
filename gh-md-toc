@@ -112,7 +112,7 @@ gh_toc(){
     # Show "TOC" string only if working with one document
     if [ "$gh_ttl_docs" = "1" ]; then
 
-        echo "Table of Contents"
+        echo "目录"
         echo "================="
         echo ""
         gh_src_copy=""
@@ -278,7 +278,6 @@ gh_toc_app() {
     done
 
     echo ""
-    echo "Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)"
 }
 
 #
